@@ -9,7 +9,7 @@ class PicsController < ApplicationController
 
 	def create
 		Pic.create(pics_params)
-		redirect_to pics_path
+		redirect_to pics_path	
 	end
 
 	private 
